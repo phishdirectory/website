@@ -50,6 +50,7 @@ export default function RootLayout({
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>Phish Directory</title>
         <link rel="icon" href="/favicon.ico" />
+        <script defer src="https://umami.hogwarts.dev/script.js" data-website-id="edb8204a-3c17-4b8e-93c2-cf991c41bd52"></script>
         <link
           rel="apple-touch-icon"
           sizes="57x57"
