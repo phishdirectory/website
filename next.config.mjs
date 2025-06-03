@@ -16,6 +16,10 @@ const nextConfig = {
             {
                 source: '/signup',
                 destination: 'https://veritas.phish.com/signup',
+            },
+            {
+                source: '/dashboard',
+                destination: 'https://dashboard.phish.directory/',
             }
         ]
     },
