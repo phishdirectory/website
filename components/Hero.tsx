@@ -16,10 +16,9 @@ const heroQuery = groq`
 export default async function Hero() {
   try {
     const hero: HeroModule = await client.fetch(heroQuery)
-    console.log('Fetched hero data:', hero)  // Logging the fetched data
 
     if (!hero) {
-      return <div>No hero data available</div> // Fallback UI
+      return <div>No hero data available</div>
     }
 
     return (

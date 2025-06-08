@@ -6,8 +6,6 @@ import React from 'react'
 import { useState } from 'react'
 
 const navigation = [
-  // { name: 'Product', href: '#' },
-  // { name: 'Company', href: '#' },
   { name: 'Docs', href: 'https://api.phish.directory/docs' },
 ]
 
@@ -21,7 +19,7 @@ export default function Header() {
         className="flex items-center justify-between p-6 lg:px-8"
       >
         <div className="flex lg:flex-1">
-          <a href="#" className="-m-1.5 p-1.5">
+          <a href="/" className="-m-1.5 p-1.5">
             <span className="sr-only">Phish Directory</span>
             <h2 className="text-2xl font-bold text-white">Phish Directory</h2>
           </a>
@@ -47,11 +45,6 @@ export default function Header() {
             </a>
           ))}
         </div>
-{/*         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-          <a href="#" className="text-sm font-semibold leading-6 text-white">
-            Log in <span aria-hidden="true">&rarr;</span>
-          </a>
-        </div> */}
       </nav>
       <Dialog
         open={mobileMenuOpen}
@@ -61,7 +54,7 @@ export default function Header() {
         <div className="fixed inset-0 z-50" />
         <DialogPanel className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-gray-900 px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-white/10">
           <div className="flex items-center justify-between">
-            <a href="#" className="-m-1.5 p-1.5">
+            <a href="/" className="-m-1.5 p-1.5">
               <span className="sr-only">Phish Directory</span>
               <h2 className="text-2xl font-bold text-white">Phish Directory</h2>
             </a>
@@ -87,14 +80,6 @@ export default function Header() {
                   </a>
                 ))}
               </div>
-{/*               <div className="py-6">
-                <a
-                  href="#"
-                  className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-white hover:bg-gray-800"
-                >
-                  Log in
-                </a>
-              </div> */}
             </div>
           </div>
         </DialogPanel>
