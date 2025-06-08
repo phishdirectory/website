@@ -10,17 +10,17 @@ const nextConfig = {
         return [
             {
                 source: '/login',
-                destination: 'https://veritas.phish.com/login',
+                destination: 'https://veritas.phish.directory/login',
                 permanent: true
             },
             {
                 source: '/signin',
-                destination: 'https://veritas.phish.com/login',
+                destination: 'https://veritas.phish.directory/login',
                 permanent: true
             },
             {
                 source: '/signup',
-                destination: 'https://veritas.phish.com/signup',
+                destination: 'https://veritas.phish.directory/signup',
                 permanent: true
             },
             {
