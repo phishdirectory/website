@@ -18,14 +18,14 @@ const navigation = [
 
 export default function Footer() {
   return (
-    <footer className="bg-viking-950">
+    <footer className="bg-gray-950">
       <div className="mx-auto max-w-7xl px-6 py-12 md:flex md:items-center md:justify-between lg:px-8">
         <div className="flex justify-center space-x-6 md:order-2">
           {navigation.map((item) => (
             <a
               key={item.name}
               href={item.href}
-              className="hover:text-viking-500 text-white"
+              className="hover:text-blue-500 text-white"
             >
               <span className="sr-only">{item.name}</span>
               <item.icon aria-hidden="true" className="h-6 w-6" />
