@@ -14,12 +14,19 @@ const nextConfig = {
                 permanent: true
             },
             {
+                source: '/signin',
+                destination: 'https://veritas.phish.com/login',
+                permanent: true
+            },
+            {
                 source: '/signup',
                 destination: 'https://veritas.phish.com/signup',
+                permanent: true
             },
             {
                 source: '/dashboard',
                 destination: 'https://dashboard.phish.directory/',
+                permanent: true
             }
         ]
     },
